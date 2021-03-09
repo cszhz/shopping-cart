@@ -1,3 +1,6 @@
+let dotenv = require('dotenv');
+dotenv.config('./env');
+
 const development = {
   client: 'mysql',
   connection: {
