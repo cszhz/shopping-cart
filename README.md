@@ -62,6 +62,12 @@ APIs are divided in three types
 7. hit login to get a session and start using APIs.
 8. hit npm test to check test cases
 
+mysql -u appuser -p -h localhost shop
+insert into user_role (id,role) values (1,'admin');
+insert into user_role (id,role) values (2,'customer');
+insert into user_role (id,role) values (3,'seller');
+
+
 ### How to run at AWS:
   
 1. Create a Redis in AWS from ElasticCache and SQL database from RDS.
